@@ -1,17 +1,12 @@
-""""
-"" initialisation
-""""
-"{{{
 if exists('g:loaded_unicode_table') || &compatible
 	finish
 endif
 
 let g:loaded_unicode_table = 1
-"}}}
 
 
 """"
-"" main functions
+"" global functions
 """"
 "{{{
 " \brief	generate unicode table
